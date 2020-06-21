@@ -8,28 +8,26 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "/Users/radyslavburylko/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\radyslav\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/radyslavburylko/tutorial2/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\radyslav\\Source\\Repos\\radiance0808\\tutorial2\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "/Users/radyslavburylko/tutorial2/ConsoleApp1/ConsoleApp1/ConsoleApp1.csproj",
-      "packagesPath": "/Users/radyslavburylko/.nuget/packages/",
-      "outputPath": "/Users/radyslavburylko/tutorial2/ConsoleApp1/ConsoleApp1/obj/",
+      "projectPath": "C:\\Users\\radyslav\\Source\\Repos\\radiance0808\\tutorial2\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\radyslav\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\radyslav\\Source\\Repos\\radiance0808\\tutorial2\\ConsoleApp1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/Users/radyslavburylko/.config/NuGet/NuGet.Config"
+        "C:\\Users\\radyslav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -60,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

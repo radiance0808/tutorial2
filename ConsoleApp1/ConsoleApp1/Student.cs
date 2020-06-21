@@ -11,8 +11,8 @@ namespace ConsoleApp1
         public string FirstName { get; set; }
         [XmlElement(ElementName = "LastName")]
         public string LastName { get; set; }
-       
-        [XmlElement(ElementName = "IndexNumber")] 
+
+        [XmlElement(ElementName = "IndexNumber")]
         public string IndexNumber { get; set; }
         [XmlElement(ElementName = "BirthDate")]
         public string BirthDate { get; set; }
@@ -23,9 +23,6 @@ namespace ConsoleApp1
         [XmlElement(ElementName = "FatherName")]
         public string FatherName { get; set; }
         [XmlElement(ElementName = "Studies")]
-        public Studies studies { get; set; }
-        
-        
-        
+        public Studies Studies { get; set; }
     }
 }

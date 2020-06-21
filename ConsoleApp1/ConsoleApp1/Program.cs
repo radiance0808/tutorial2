@@ -56,6 +56,8 @@ namespace ConsoleApp1
                             {
                                 continue;
                             }
+                            string Course = students[2];
+                            string StudiesMode = students[3];
                             var student = new Student()
                             {
                                 FirstName = students[0],
@@ -65,9 +67,8 @@ namespace ConsoleApp1
                                 Email = students[6],
                                 MotherName = students[7],
                                 FatherName = students[8],
-                                studies = new Studies(){
-                                    Course = students[2],
-                                    StudiesMode = students[3]
+                                Studies = new Studies(Course, StudiesMode){
+                                    
                             }
                             }; 
                             list.Add(student);
